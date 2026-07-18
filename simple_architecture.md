@@ -57,3 +57,9 @@ So a fetch looks something like this, First of all command bus tells the cpu tha
 
 **Fetch**, the whole purpose of fetch is to take the instruction from the memory and give it to the cpu.MAR is used for any memory access, including accessing instructions and data.
 
+
+##cache 
+
+cache is larger than registers but it is much slower, faster than ram.If the data we need is in cash then we call it, cache hit, or else we will call it cache miss. Cache sits between ram and cpu.
+we try to ensure that cache holds the most freqeuently used instructions and data *so there is a greater chance of cache hit*
+
