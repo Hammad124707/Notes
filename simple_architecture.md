@@ -87,7 +87,7 @@ A microprocessor, I would say, is a combination of some or all of these logic ci
 A microprocessor is connected to ROM, RAM, IO, and other peripherals, however a microcotroller has everything in it already, it houses a **cpu**,ram rom, io , everything is inside a single chip.
 Both however has the same fetch and execute cycle and 3 busses, the thing is, both cpus work like the same, but microcontroller cpu, is placed with ram and rom ,in a single chip 
 
-
+Instruction Set is the set of binary instrustions, can a Cpu can understand. ARM AND INTEL CPUs, understand x86,.
 
 # the end 
 
