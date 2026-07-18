@@ -70,3 +70,24 @@ If components are *idle* they are now at their full potential. If we are doing f
 **pipelining**: when one instruction is being fetched, another is being executed and another is being decoded, pipelining is not parallel its concurrent processing . 
 <img width="698" height="132" alt="image" src="https://github.com/user-attachments/assets/c20fc76b-6148-44e6-8ef8-93ef697d318d" />
 
+<img width="632" height="356" alt="image" src="https://github.com/user-attachments/assets/b3258e71-37f6-4bec-9b29-8973024dead9" />
+
+One benifit of pipelining is more instructions can be executed in less amount of time.
+Sometimes, two pipeline stages require the same component, means the process can be stall.
+Different pipeline stages can take uneven time.
+
+
+# The end
+
+
+# MICRO-Processor and a Micro Controller 
+- MP and CPU , both can process instructions, do computations, and read & write to internal registers and external memory, but a microprocessor typically has additional capabilities.  CPU is that logic circuitry responsible for fetching, decoding, and executing instructions of a program. It is different from but integrates with and coordinates (as the Central Processing Unit) other circuitry like ALUs (Arithmetic Logic Units), FPUs (Floating Point Units), VPUs (Vector Processing Units), MMUs (Memory Management Units), GPUs (Graphic Processing Units), IOPs (I/O Processors), etc.
+A microprocessor, I would say, is a combination of some or all of these logic circuits combined in a single integrated package.
+
+A microprocessor is connected to ROM, RAM, IO, and other peripherals, however a microcotroller has everything in it already, it houses a **cpu**,ram rom, io , everything is inside a single chip.
+Both however has the same fetch and execute cycle and 3 busses, the thing is, both cpus work like the same, but microcontroller cpu, is placed with ram and rom ,in a single chip 
+
+
+
+# the end 
+
