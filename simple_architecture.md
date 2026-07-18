@@ -41,3 +41,14 @@ Program counter(hold the adress for the next instruction). Memory address regist
 
 ## another video(busses) 
 <img width="536" height="292" alt="image" src="https://github.com/user-attachments/assets/21d4570f-a61d-4822-b5ac-87c0ad1f4e1e" />
+
+bus is a collection of parallel wires through which data is teransmited. we use the term **width** to tell, how many bits can it transfer at a time.
+
+**ADDRESS BUS** is unidirectional , send a memory address from the cpu to the memory.Address of the memory we need to read from.
+**Data Bus** sends the actual data or instruction to and from the memory .
+**control bus** it carries commands from the cpu to other devices and status messaged back from the devices
+it looks something like this 
+<img width="265" height="132" alt="image" src="https://github.com/user-attachments/assets/04a821ca-ff2e-4edc-bbb6-240b5bcae7b1" />
+
+So a fetch looks something like this, First of all command bus tells the cpu that i have to read, then the  address is loaded into the bus, then the bus takes that address and give it to the memory and memory loads the data in the data bus. 
+
