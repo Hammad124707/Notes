@@ -34,7 +34,7 @@ Generally 5 different spr.
 -Accumulator 
 -Memory Address regsiter
 
-Program counter(hold the adress for the next instruction). Memory address register, (holds the address of the data/instruction being  fetched or written to )
+Program counter(hold the adress for the next instruction). Memory address register, (holds the address of the data/instruction being  fetched or written to ).MAR stores the address of the memory location that the CPU wants to access. For example, if the CPU wants to read data from memory address 500, it puts 500 into the MAR. The memory controller then uses that address to find the required data.
 
 
 
@@ -51,4 +51,9 @@ it looks something like this
 <img width="265" height="132" alt="image" src="https://github.com/user-attachments/assets/04a821ca-ff2e-4edc-bbb6-240b5bcae7b1" />
 
 So a fetch looks something like this, First of all command bus tells the cpu that i have to read, then the  address is loaded into the bus, then the bus takes that address and give it to the memory and memory loads the data in the data bus. The data could be an instruction aswell .
+
+
+## Fetch execute cycle (another video) 
+
+**Fetch**, the whole purpose of fetch is to take the instruction from the memory and give it to the cpu.MAR is used for any memory access, including accessing instructions and data.
 
