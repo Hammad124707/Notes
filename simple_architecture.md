@@ -50,5 +50,5 @@ bus is a collection of parallel wires through which data is teransmited. we use 
 it looks something like this 
 <img width="265" height="132" alt="image" src="https://github.com/user-attachments/assets/04a821ca-ff2e-4edc-bbb6-240b5bcae7b1" />
 
-So a fetch looks something like this, First of all command bus tells the cpu that i have to read, then the  address is loaded into the bus, then the bus takes that address and give it to the memory and memory loads the data in the data bus. 
+So a fetch looks something like this, First of all command bus tells the cpu that i have to read, then the  address is loaded into the bus, then the bus takes that address and give it to the memory and memory loads the data in the data bus. The data could be an instruction aswell .
 
