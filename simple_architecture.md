@@ -57,9 +57,16 @@ So a fetch looks something like this, First of all command bus tells the cpu tha
 
 **Fetch**, the whole purpose of fetch is to take the instruction from the memory and give it to the cpu.MAR is used for any memory access, including accessing instructions and data.
 
+More cache means , we can store more instrcutions
 
 ##cache 
 
 cache is larger than registers but it is much slower, faster than ram.If the data we need is in cash then we call it, cache hit, or else we will call it cache miss. Cache sits between ram and cpu.
-we try to ensure that cache holds the most freqeuently used instructions and data *so there is a greater chance of cache hit*
+we try to ensure that cache holds the most freqeuently used instructions and data *so there is a greater chance of cache hit*. If we make cache too big, it will take more time to search, hence it may slow down access.
+**L1** cache is the smalles and the fastest, its inside our cpu core, inside core we have **L2** cache aswell, its bigger, but slower than L1 cache, we have **L3** cache, aswell, its inside cpu but can be accesedd by call the cores, its not related to a single core. First L1 cache is checked for the instrcution.
+
+##Pipelining 
+If components are *idle* they are now at their full potential. If we are doing fetch, then the circuits for execute and decode are idle.
+**pipelining**: when one instruction is being fetched, another is being executed and another is being decoded, pipelining is not parallel its concurrent processing . 
+<img width="698" height="132" alt="image" src="https://github.com/user-attachments/assets/c20fc76b-6148-44e6-8ef8-93ef697d318d" />
 
