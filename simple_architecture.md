@@ -15,4 +15,14 @@ this is similar to harvard architecture but that suggested that there should be 
 <img width="1358" height="325" alt="image" src="https://github.com/user-attachments/assets/3310518d-3535-48d2-864b-96e583e12ca4" />
 
 
-hardware of harvard is more complicated, but it is faster. as there is no bottlenect.
+hardware of harvard is more complicated, but it is faster. as there is no bottlenet.
+
+## now a different video.
+cpu is a particular type of a processor, there are different type of processors.
+
+Processors generally have 3 main units in it , an **ALU**, a **CU** and **registers** . Control unit has a unit which is called a decoder, which will decode instructions.
+
+There are 2 main components of ALU. one that perfroms mathematical calculations and the other which does boolean operations
+
+## another video (special purpose registers) 
+Memory inside the processor. quite small.There are either **general purpose**register or either **special** purpose registers
