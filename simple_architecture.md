@@ -25,4 +25,19 @@ Processors generally have 3 main units in it , an **ALU**, a **CU** and **regist
 There are 2 main components of ALU. one that perfroms mathematical calculations and the other which does boolean operations
 
 ## another video (special purpose registers) 
-Memory inside the processor. quite small.There are either **general purpose**register or either **special** purpose registers
+Memory inside the processor. quite small.There are either **general purpose**register or either **special** purpose registers.
+General purpose registers are for everyone to use.They are for the programmer to use .
+Generally 5 different spr.
+-Program counter 
+-Memory data register 
+-Current Instruction Register 
+-Accumulator 
+-Memory Address regsiter
+
+Program counter(hold the adress for the next instruction). Memory address register, (holds the address of the data/instruction being  fetched or written to )
+
+
+
+
+## another video(busses) 
+<img width="536" height="292" alt="image" src="https://github.com/user-attachments/assets/21d4570f-a61d-4822-b5ac-87c0ad1f4e1e" />
