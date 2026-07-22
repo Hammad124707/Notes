@@ -12,3 +12,5 @@ typical CPU includes a program counter whose output is interpreted as the addres
 the instruction that should be executed next in the current program.
 A counter chip can be implemented by combining the input/output logic of a
 standard register with the combinatorial logic for adding a constant.
+
+1 important thing learnt during nand 2 teris is , the first part of if else , the *if* case will be execvuted the first, it has the most priority
